@@ -18,4 +18,8 @@ public class ItemRepository {
     public Item createItem(Item item){
         return itemDatabase.addItemToDatabase(item);
     }
+
+    public Item createUpdatedItem (Item item, Item updatedItem){
+        return itemDatabase.addUpdateItemOnIndexOfItem(item, updatedItem);
+    }
 }

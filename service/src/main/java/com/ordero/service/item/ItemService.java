@@ -19,4 +19,9 @@ public class ItemService {
     public Item addItem(Item item){
         return itemRepository.createItem(item);
     }
+
+    /*public Item updateItem(Item item, Item updatedItem){
+        return itemRepository.createUpdatedItem(item, updatedItem);
+    }*/
+
 }
